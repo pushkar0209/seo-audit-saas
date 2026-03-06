@@ -11,7 +11,7 @@ export default function Home() {
           </Link>
           <div className="flex items-center gap-4">
             <SignedOut>
-              <SignInButton mode="modal">
+              <SignInButton mode="redirect">
                 <button className="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800 transition-colors">
                   Sign In
                 </button>
@@ -37,7 +37,7 @@ export default function Home() {
         </p>
 
         <SignedOut>
-          <SignInButton mode="modal">
+          <SignInButton mode="redirect">
             <button className="bg-black text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-800 transition-colors">
               Get Started for Free
             </button>
